@@ -136,3 +136,30 @@ body{
     text-decoration-color: brown;
     transition: text-decoration-color 15s ease;
 }
+@media (max-width: 480px){
+    body{
+        padding: 12px;
+    }
+
+    .wrapper{
+        width: 100%;
+        padding: 24px 16px;
+    }
+
+    .wrapper h1{
+        font-size: 32px;
+    }
+
+    .input-box{
+        margin: 24px 0;
+    }
+
+    .frst-link{
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .register-link{
+        font-size: 13px;
+    }
+} 
